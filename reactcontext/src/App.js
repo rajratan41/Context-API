@@ -1,12 +1,13 @@
-import Navbar from "./components/Navbar";
 import Form from "./components/Form";
-function App() {
+import Navbar from "./components/Navbar";
+
+const App = () => {
   return (
     <>
       <Navbar />
       <Form />
     </>
   );
-}
+};
 
 export default App;
